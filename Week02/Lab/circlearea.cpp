@@ -9,16 +9,16 @@ const double RADIUS = 5.4;
 
 int main()
 {
-	area 								// definition of area of circle 
-	circumference = 2 * PI * RADIUS;	// computes circumference
-    double circumference,				// definition of circumference 
-	area = PI * RADIUS * RADIUS;		// computes area
+	double area; 								// definition of area of circle 
+	double circumference = 2 * PI * RADIUS;	// computes circumference
+    			// definition of circumference 
+    area = PI * RADIUS * RADIUS;		// computes area
 
 	// Fill in the code for the cout statement that will output (with description)
 	// the circumference
-
+cout << "the circumference " << circumference<<endl;
 	// Fill in the code for the cout statement that will output (with description)
 	// the area of the circle
-
+cout << "the area of the circle "<< area<<endl;
 	return 0;
 }
