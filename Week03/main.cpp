@@ -26,5 +26,13 @@ int main()
     // PI = 3.14159;
     cout << PI << endl;
 
+string name;
+cout << "What's your name?\n";
+cin>> name;
+cout<< "Hello"<<name<<"!\n"
 
+int minutes;
+cout<< "How many minutes are in an hour?\n";
+cin >> minutes;
+cout << "There are" << minutes << "minutes in an hour.\n";
 }
