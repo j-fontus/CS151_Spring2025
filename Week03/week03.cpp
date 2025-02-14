@@ -1,17 +1,9 @@
 #include <iostream>
-<<<<<<< HEAD
-=======
 #include <string>
->>>>>>> upstream/main
 
 using namespace std;
 
 int main()
-<<<<<<< HEAD
-
-{
-    cout<< "Hello, World";
-=======
 {
     /*
     string hello = "Hello, World!";
@@ -35,5 +27,4 @@ int main()
     cout << PI << endl;
 
 
->>>>>>> upstream/main
 }
