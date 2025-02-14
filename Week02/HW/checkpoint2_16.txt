@@ -1,7 +1,9 @@
 What header file must you include in order to use string objects?
 /* Write your answer below.
 ************************************************************************************************
+To use string objects I must put
 
+#include <string>
 
 ************************************************************************************************
 */
