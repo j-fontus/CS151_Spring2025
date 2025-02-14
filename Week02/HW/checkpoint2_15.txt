@@ -3,7 +3,10 @@ char letter = "Z";
 
 /* Write your answer below.
 ************************************************************************************************
+The problem is that double quotes are used for character literal. Character literals must be enclosed in
+single quotes
 
+char letter = 'Z'
 
 
 ************************************************************************************************
