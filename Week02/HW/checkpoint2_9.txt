@@ -5,9 +5,11 @@ Refer to the data types listed in Table 2-6 for these questions.
 
 /* Write your answers below.
 ************************************************************************************************
+(A) unsigned short
 
+(B) int or long
 
-
+(C) 20L uses more memory than 20 because it is a long literal, while 20 is a unt literal
 
 
 ************************************************************************************************
