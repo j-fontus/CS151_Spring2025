@@ -8,7 +8,10 @@ grade_report
 
 /* Write your answers below.
 ************************************************************************************************
+//illegel variable names
 
+99bottles - illegal cannot start with a digit
+r&d - illegal: Contains an invalid character '&'.
 
 
 
