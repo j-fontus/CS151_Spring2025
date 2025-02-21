@@ -1,3 +1,5 @@
 Is the following assignment statement valid or invalid? If it is invalid, why?
 
 72 = amount;
+
+The following statement is invalid because the left side of an assignment statment must be a variable, you cannot assign a value to a number you assign value to a variable.

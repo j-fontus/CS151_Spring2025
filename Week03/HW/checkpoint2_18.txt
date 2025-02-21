@@ -1,2 +1,4 @@
-Yes or No: Is there an unsigned floating-point data type? If so, what is it?
+Yes or No: Is there an unsigned floating-point data type? If so, what is it? 
+
+No, there are no unsigned floating point data type in c++. Floating point types like float, double, and long double can represent both positive and negative values
 
