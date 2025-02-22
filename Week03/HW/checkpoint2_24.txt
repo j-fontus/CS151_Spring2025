@@ -2,3 +2,8 @@ Is the following an example of integer division or floating-point division? What
 value will be stored in portion?
 
 portion = 70 / 3;
+
+
+Since 70 and 3 are both integers, the division will result in an integer value. Any decimal part will be discarded.
+
+70 / 3 evaluates to 23 in integer division because the decimal part (.333...) is truncated

@@ -9,4 +9,4 @@ int main()
     double number;
     cout << number << endl;
     return 0;
-}
+} 
