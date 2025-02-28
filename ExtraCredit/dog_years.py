@@ -18,13 +18,13 @@ python dog_years.py
 if __name__ == "__main__":
     ...
     
-# Prompt user for their age
-human_age = int(input("Enter your age in human years: "))
+    # Prompt user for their age
+    human_age = int(input("Enter your age in human years: "))
 
-# convert to dog years
-dog_age = human_age * 7 
+    # convert to dog years
+    dog_age = human_age * 7 
 
-# display the result
-print ("Your age in dog years is:" dog_age);
+    # display the result
+    print ("Your age in dog years is:", dog_age)
 
 
