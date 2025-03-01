@@ -9,7 +9,12 @@ using namespace std;
 int main()
 {
     char letter;
-    // Finish this program
-    // as specified above.
+    
+    cout << "Enter a character:";
+
+    cin >> letter;
+
+    cout << "ASCII code: " << static_cast<int>(letter) << endl;
+    
     return 0;
 }
