@@ -9,5 +9,14 @@ Only use the log function from the math module.
 from math import log
 
 if __name__ == "__main__":
-    ...
+
+ 
+
+log_1000_base10 = log(1000) / log(10)
+
+print(log_1000_base10)  
+
+
+
+...
     

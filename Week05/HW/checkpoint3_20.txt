@@ -5,3 +5,20 @@ fmod    pow     tan
 
 ANSWER BELOW
 *******************************************************************************
+cos(x) - Computes the cosine of x, where x is in radians.
+
+log(x) - Computes the natural logarithm (base e) of x.
+
+sin(x) - Computes the sine of x, where x is in radians.
+
+exp(x) - Computes e raised to the power of x (e^x).
+
+log10(x) - Computes the common logarithm (base 10) of x.
+
+sqrt(x) - Computes the square root of x.
+
+fmod(x, y) - Computes the floating-point remainder of x / y (similar to modulo but for floating-point numbers).
+
+pow(x, y) - Computes x raised to the power of y (x^y).
+
+tan(x) - Computes the tangent of x, where x is in radians.
