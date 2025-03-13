@@ -9,3 +9,5 @@ If the user does not input yes or no, display to the user they cannot drink.
 
 if __name__ == "__main__":
     ...
+
+    

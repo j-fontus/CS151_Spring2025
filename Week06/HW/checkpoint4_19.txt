@@ -9,3 +9,8 @@ following conditions is True or False:
 
 ANSWER BELOW
 *******************************************************************************\
+b > 2 True
+false
+true
+a <= b True 
+true

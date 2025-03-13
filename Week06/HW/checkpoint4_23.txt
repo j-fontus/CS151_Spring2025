@@ -11,3 +11,10 @@ Refer to the ASCII table in Appendix A if necessary.
 
 ANSWER BELOW
 *******************************************************************************
+False
+False
+True
+False
+False
+True
+False

@@ -10,3 +10,10 @@ relational expressions is true or false:
 
 ANSWER BELOW
 *******************************************************************************
+true
+true
+false
+true
+true
+false
+true

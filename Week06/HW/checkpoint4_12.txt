@@ -11,3 +11,5 @@ True or false: The following if/else statements cause the same output to display
 
 ANSWER BELOW
 *******************************************************************************
+True
+True
