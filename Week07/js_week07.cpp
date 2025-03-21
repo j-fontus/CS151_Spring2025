@@ -43,7 +43,21 @@ void quiz05_ec()
 }
 void quiz06_ec()
 {
-    
+    int width = 10;
+    cout << boolalpha << left << setw(width) << "P" << setw(width) << "Q" << setw(width) << "P != Q" << endl;
+    // cout << setw(width) << true << setw(width) << true << setw(width) << (true != true) << endl;
+    // cout << setw(width) << true << setw(width) << false << setw(width) << (true != false) << endl;
+    // cout << setw(width) << false << setw(width) << true << setw(width) << (false != true) << endl;
+    // cout << setw(width) << false << setw(width) << false << setw(width) << (false != false) << endl;
+    bool P = true, Q = true;
+    cout << setw(width) << P << setw(width) << Q << setw(width) << (P != Q) << endl;
+    Q = false;
+    cout << setw(width) << P << setw(width) << Q << setw(width) << (P != Q) << endl;
+    P = false;
+    Q = !Q;
+    cout << setw(width) << P << setw(width) << Q << setw(width) << (P != Q) << endl;
+    Q = !Q;
+    cout << setw(width) << P << setw(width) << Q << setw(width) << (P != Q) << endl;
 }
 
 int main()
@@ -69,5 +83,5 @@ int main()
                 break;
         default: cout << "Invalid Choice\n";
     }
-
+    return 0;
 }
