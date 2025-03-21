@@ -23,5 +23,5 @@ LITERALS:
 2
 2000
 "The litle number is"
-"The bif number is"
+"The big number is"
 */

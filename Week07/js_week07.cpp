@@ -34,7 +34,7 @@ void quiz04_ec()
     const double PI = 3.1415926;
     int ans = pow(sin(PI),2) + pow(cos(PI),2);
     cout << ans << endl;
-}
+} 
 void quiz05_ec()
 { 
     int a = 5, b = 3;

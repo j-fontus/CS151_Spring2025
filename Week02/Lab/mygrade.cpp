@@ -8,6 +8,6 @@
  int grade;
  grade = 90;
 
- cout<< "I expect to get an "<<grade <<"which is an A"<<letter<<"in this class"<<endl;
+ cout<< "I expect to get a 90 "<<grade <<"which is an A"<<letter<<"in this class"<<endl;
  
 }

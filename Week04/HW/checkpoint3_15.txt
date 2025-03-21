@@ -11,3 +11,13 @@ Write statements using combined assignment operators to perform the following:
 
 ANSWER BELOW
 *******************************************************************************************
+x += 6;
+amount -= 4;
+y *= 4;
+total /= 27;
+x %= 7;
+x += y * 5;
+total -= discount * 4;
+increase *= salesRep * 5;
+profit /= shares - 1000;
+

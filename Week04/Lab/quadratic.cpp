@@ -18,8 +18,8 @@ int main()
 
     x2 = (-b+ sqrt(discriminant))/ (2 * a);
 
-    cout << x1 << endl;
-    cout << x2 << endl;
+    cout << "x_1 = " << x1 << endl;
+    cout << "x_2 = " << x2 << endl;
 
     return 0;
 

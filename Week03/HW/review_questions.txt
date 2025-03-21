@@ -16,7 +16,7 @@ variable. Write statements in C++ to perform the following operations:
 
     (A) Add 10 to x.  
         
-        x + = 10;
+        x += 10;
 
     (B) Square the value of y. 
 
@@ -24,7 +24,7 @@ variable. Write statements in C++ to perform the following operations:
 
     (C) Divide x by 7 and store the result in y.
 
-         y =  x / 7.0;
+         y =  x / 7;
 
     (D) Store '&' in z.
 
@@ -46,28 +46,32 @@ variable. Write statements in C++ to perform the following operations:
 5. Is the following comment written using single-line or multi-line comment symbols?
     /* This program was written by M. A. Codewriter*/
 
-      Single-line comment
+       multi-line comment
 
 
 6. Is the following comment written using single-line or multi-line comment symbols?
     // This program was written by M. A. Codewriter
 
-     multi-line comment
+     single-line comment
 
 
 7. Modify the following program so it prints two blank lines between each line of text.
 
     #include <iostream>
-    using namespace std;
+using namespace std;
 
-    int main()
-    {
-        cout << "Two mandolins like creatures in the" << endl << endl;
-        cout << "dark" << endl << endl ;
-        cout << "Creating the agony of ecstasy." << endl << endl;
-        cout << " - George Barker" << endl;
-        return 0;
-    }
+int main()
+{
+    cout << "Two mandolins like creatures in the" << endl << endl << endl;
+
+    cout << "dark" << endl << endl << endl;
+
+    cout << "Creating the agony of ecstasy." << endl << endl << endl;
+
+    cout << "  George Barker" << endl;
+
+    return 0;
+}
 
 8. What will the following programs print on the screen?
 
