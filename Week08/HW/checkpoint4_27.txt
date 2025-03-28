@@ -9,3 +9,5 @@ else if (rate < .1)
 
 ANSWER BELOW
 *******************************************************************************
+you can't convert the if/else if chain into a switch because your comparing different varibles and using rational opteraters.
+    

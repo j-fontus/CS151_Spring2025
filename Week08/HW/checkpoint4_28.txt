@@ -11,3 +11,9 @@ switch (temp)
 
 ANSWER BELOW
 *******************************************************************************
+if (temp < 0)
+    cout << "Temp is negative.\n";
+else if (temp == 0)
+    cout << "Temp is zero.\n";
+else
+    cout << "Temp is positive.\n";
