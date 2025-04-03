@@ -30,3 +30,9 @@ What will the following program segments display?
 
 ANSWER BELOW
 ****************************************************************************************
+32
+33
+23
+34
+It is true!
+it os true!

@@ -11,14 +11,15 @@ Program 5-13:
  8  {
  9      int game = 1, // Game counter
 10      points, // To hold a number of points
-11      total = 0; // Accumulator
+11      total = 0; // Accumulator 
 12
 13      cout << "Enter the number of points your team has earned\n";
-14      cout << "so far in the season, then enter −1 when finished.\n\n";
-15      cout << "Enter the points for game " << game << ": ";
-16      cin >> points;
+    cout << "so far in the season. Enter any negative number when finished.\n\n";
+
+    cout << "Enter the points for game " << game << ": ";
+    cin >> points;
 17
-18      while (points != −1)
+18      while (points >= 0)
 19      {
 20          total += points;
 21          game++;
@@ -31,3 +32,5 @@ Program 5-13:
 
 ANSWER BELOW
 ****************************************************************************************
+I would condition whlie condition from points != -1 to >= 0 and changed the message to match the new
+sentinal rule

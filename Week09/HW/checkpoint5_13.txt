@@ -12,3 +12,10 @@ cout << "The sum of those numbers is " << y << endl;
 
 ANSWER BELOW
 ****************************************************************************************
+counter variable is used to control how many times the loop runs (x = 0; x < 10; x++)
+
+accumulator variable stores the running total of all numbers entered (y +=a;)
+
+counter - x counts how many times the loop has executed. 
+
+accumulator - y adds up the values entered by the user.
