@@ -1,6 +1,6 @@
 Read and Write
 
-Create a file in Week09/Lab called read_write.cpp
+Create a file in Week10/Lab called read_write.cpp
 
 Write a program that reads a file called content.txt and counts the occurrences of each letter in the file.
 The program should then write the letter counts to a file called counts.txt.
