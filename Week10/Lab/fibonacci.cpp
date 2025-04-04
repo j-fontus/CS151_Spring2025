@@ -17,8 +17,10 @@ int main()
     {
       cc = fi + bo;
       cout << cc << endl;
-      bo = fi; 
-      cc = bo;
+    //   bo = fi; 
+    //   cc = bo;
+        fi=bo;
+        bo=cc;
       
     }
      cout << cc << endl;
