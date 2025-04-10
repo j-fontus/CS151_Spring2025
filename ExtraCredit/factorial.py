@@ -11,4 +11,28 @@
 
 if __name__ == "__main__":
     ...
-    
+   while True:
+
+    try:
+
+        num = int(input("Enter a positve integer: ")) 
+        if num < 0:
+            print("Please enter a non-negative number. ")
+        else:
+            break
+    except ValueError:
+        print ("Invalid input. Please enter a whole number. ")
+
+    factorial = 1
+    steps = "" 
+ 
+ for i in range(num, 0, -1):
+    factorial *= i
+    steps += str(i)
+    if i > 1:
+        steps += " * "
+
+if num == 0:
+    steps = "1"
+
+print(f"\n{num}! = {steps} = {factorial}")
