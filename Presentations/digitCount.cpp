@@ -7,14 +7,17 @@
     [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     Then the function should return the integer 1111111111.
     If the input integer is 1122334455, the function should create an array with the following values:
-    [2, 0, 0, 0, 0, 0, 0, 0, 0, 2]
-    Then the function should return the integer 2000000002.
+    [0, 2, 2, 2, 2, 2, 0, 0, 0, 0]
+    Then the function should return the integer 222220000.
     If the input integer is 0, the function should create an array with the following values:
     [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     Then the function should return the integer 1000000000.
     If the input integer is 9, the function should create an array with the following values:
     [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
     Then the function should return the integer 1.
+    If the input integer is 889999999999, the function should create an array with the following values:
+    [0, 0, 0, 0, 0, 0, 0, 0, 2, 10]
+    Then the function should return the integer 210.
 */
 
 #include <iostream>
