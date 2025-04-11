@@ -30,7 +30,7 @@ The function should use a loop to iterate through each character of the string a
 The function should return the count of consonants found in the string.
 Use the allUpper() function to convert the string to uppercase before checking for consonants.
 Assume that the string contains only alphabetic characters.
-Assume Y is not a consonant.
+Assume Y is a consonant.
 
 Write a function called encode() that takes a string as an argument and returns the string with each character replaced by the next character in the alphabet.
 The function should use a loop to iterate through each character of the string and replace it with the next character in the alphabet.

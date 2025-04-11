@@ -17,9 +17,9 @@ Write a function called absoluteValue() that takes a double argument and returns
 Write a function called percentError() that takes two double arguments representing the theoretical average and the calculated average.
 The function should return the percent error between the theoretical average and the calculated average using the formula:
 
-percentError =       |theoretical average - calculated average| 
-                2 x -------------------------------------------- x 100
-                      theoretical average + calculated average
+                    |theoretical average - calculated average| 
+percentError = 2 x -------------------------------------------- x 100
+                     theoretical average + calculated average
 
 The function should return a double value.
 Theoretical average = 3.5
@@ -28,3 +28,4 @@ Your main function should call the calculateAverage() function to get the averag
 Then, it should call the percentError() function to calculate the percent error between the theoretical average and the calculated average.
 Finally, print the average of the rolls and the percent error to the console.
 Both values should be formatted to 2 decimal places with the percent error displayed with a percent sign.
+Increase the number of rolls to improve/decrease the percent error.
