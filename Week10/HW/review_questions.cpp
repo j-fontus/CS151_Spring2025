@@ -20,6 +20,26 @@ void reviewQuestion35()
     */
 
     // Write your code here
+    
+    #include <iostream>
+    using namespace std;
+
+    int main() {
+    int number;
+    int sum = 0;
+
+    while (sum <= 100)
+     {
+        cout << "Enter a number: ";
+        cin >> number;
+
+        sum += number;
+        cout << "Current sum: " << sum << endl;
+    }
+
+    cout << "Sum exceeded 100. Final sum: " << sum << endl;
+    return 0;
+}
 
 }
 void reviewQuestion36()
@@ -32,6 +52,29 @@ void reviewQuestion36()
 
     // Write your code here
 
+    #include <iostream>
+    #include <cmath> 
+    using namespace std;
+    
+    int main() 
+    {
+        double number;
+    
+        do {
+            cout << "Enter a positive number: ";
+            cin >> number;
+    
+            if (number > 0) {
+                cout << "Square root: " << sqrt(number) << endl;
+            }
+    
+        } while (number > 0);
+    
+        cout << "Negative number entered. Program ended." << endl;
+        return 0;
+    }
+
+
 }
 void reviewQuestion37()
 {
@@ -41,6 +84,17 @@ void reviewQuestion37()
     */
 
     // Write your code here
+
+    #include <iostream>
+    using namespace std;
+
+    int main() {
+    for (int num = 2; num <= 2048; num *= 2) {
+        cout << num << endl;
+    }
+
+    return 0;
+}
 
 }
 void reviewQuestion38()
@@ -52,6 +106,21 @@ void reviewQuestion38()
 
     // Write your code here
 
+    #include <iostream>
+    using namespace std;
+
+    int main() {
+    int count = 0;
+
+    for (int i = 100; i <= 250; i += 2) {
+        cout << i << endl;
+        count++;
+    }
+
+    cout << "Total even numbers: " << count << endl;
+    return 0;
+}
+
 }
 void reviewQuestion39()
 {
@@ -61,6 +130,20 @@ void reviewQuestion39()
     */
 
     // Write your code here
+
+    #include <iostream>
+    using namespace std;
+
+    int main() {
+    for (int row = 1; row <= 10; row++) {
+        for (int col = 1; col <= 15; col++) {
+            cout << "#";
+        }
+        cout << endl; // Move to the next line after each row
+    }
+
+    return 0;
+}
 
 }
 void reviewQuestion40()
@@ -77,6 +160,20 @@ void reviewQuestion40()
 
     // Write your code here
 
+    #include <iostream>
+    using namespace std;
+
+    int main() {
+    int x = 1;
+
+    do {
+        cout << "enter a number: ";
+        cin >> x;
+    } while (x > 0);
+
+    return 0;
+}
+
 }
 void reviewQuestion41()
 {
@@ -91,6 +188,23 @@ void reviewQuestion41()
     */
 
     // Write your code here
+
+    #include <iostream>
+    using namespace std;
+
+int main() 
+{
+    int response;
+
+    for (;;) {
+        cout << "Hello! Press 1 to exit loop...";
+        cin >> response;
+        if (response == 1)
+            break;
+    }
+
+    return 0;
+}
 
 }
 void reviewQuestion42()
@@ -107,6 +221,17 @@ void reviewQuestion42()
 
     // Write your code here
 
+    #include <iostream>
+    using namespace std;
+
+    int main() {
+    for (int count = 0; count < 50; count++) {
+        cout << "count is " << count << endl;
+    }
+
+    return 0;
+}
+
 }
 void reviewQuestion43()
 {
@@ -119,6 +244,19 @@ void reviewQuestion43()
     */
 
     // Write your code here
+
+    #include <iostream>
+    using namespace std;
+
+    int main() {
+    int x = 50;
+    while (x > 0) {
+        cout << x << " seconds to go.\n";
+        x--;
+    }
+
+    return 0;
+}
     
 }
 void reviewQuestion44()
@@ -129,6 +267,21 @@ void reviewQuestion44()
     */
 
     // Write your code here
+
+    #include <iostream>
+    #include <fstream>
+    using namespace std;
+
+int main() {
+    ofstream outFile("Numbers.txt"); 
+
+    for (int i = 1; i <= 100; i++) {
+        outFile << i << endl;
+    }
+
+    outFile.close(); 
+    return 0;
+}
 
 }
 void reviewQuestion45()
