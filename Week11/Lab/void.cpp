@@ -3,62 +3,55 @@
 
 using namespace std;
 
-void sayHello(string name)
-{
-if (name.length() == 0){
-    cout << "Hello World";
-}
-else {
-    cout << "Hello,  " << name;
-}
-
-
-return;
-}
-
-void countdown(int n){
-    if(n < 0){
-    cout << "invalid input";
+void sayHello(string name) {
+    if (name.length() == 0) {
+        cout << "Hello, World!" << endl;
+    } else {
+        cout << "Hello, " << name << "!" << endl;
     }
-    else {
-        for (n; n >= 0, n--)
-        {
+}
+
+void countdown(int n) {
+    if (n < 0) {
+        cout << "Invalid input" << endl;
+    } else {
+        for (; n >= 0; n--) {
             cout << n << endl;
         }
     }
-    return;
 }
-void printBlock(int n){
-    if(n < 1){
-        cout << "invalid input";
-        
-    }
-    else{
-        for(int j = n; j >= 1; j--)
-        {
-            for(int m = n; m >= 1; m--)
-            {
+
+void printBlock(int n) {
+    if (n < 1) {
+        cout << "Invalid input" << endl;
+    } else {
+        for (int j = 0; j < n; j++) {
+            for (int m = 0; m < n; m++) {
                 cout << "*";
             }
             cout << endl;
         }
-
     }
-    
 }
-void printTriangle(int n){
-    if(n < 1){
-        cout << "invalid input";
-        }
-  else{
-    for (int i = 0;i < n; i++){
-        for(int j = 0; j <= i; j++)
-        {
-            cout << "*";
-        }
-        cout << endl;
-        
-    }
-  }
 
+void printTriangle(int n) {
+    if (n < 1) {
+        cout << "Invalid input" << endl;
+    } else {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j <= i; j++) {
+                cout << "*";
+            }
+            cout << endl;
+        }
+    }
+}
+
+int main() {
+    sayHello("Josue");
+    sayHello("");
+    countdown(5);
+    printBlock(4);
+    printTriangle(5);
+    return 0;
 }

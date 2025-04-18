@@ -21,8 +21,7 @@ void reviewQuestion35()
 
     // Write your code here
     
-    #include <iostream>
-    using namespace std;
+    
 
     int main() {
     int number;
@@ -38,7 +37,7 @@ void reviewQuestion35()
     }
 
     cout << "Sum exceeded 100. Final sum: " << sum << endl;
-    return 0;
+    
 }
 
 }
@@ -52,9 +51,7 @@ void reviewQuestion36()
 
     // Write your code here
 
-    #include <iostream>
-    #include <cmath> 
-    using namespace std;
+    
     
     int main() 
     {
@@ -71,7 +68,7 @@ void reviewQuestion36()
         } while (number > 0);
     
         cout << "Negative number entered. Program ended." << endl;
-        return 0;
+       
     }
 
 
@@ -85,15 +82,14 @@ void reviewQuestion37()
 
     // Write your code here
 
-    #include <iostream>
-    using namespace std;
+    
 
     int main() {
     for (int num = 2; num <= 2048; num *= 2) {
         cout << num << endl;
     }
 
-    return 0;
+    
 }
 
 }
@@ -106,8 +102,7 @@ void reviewQuestion38()
 
     // Write your code here
 
-    #include <iostream>
-    using namespace std;
+    
 
     int main() {
     int count = 0;
@@ -118,7 +113,7 @@ void reviewQuestion38()
     }
 
     cout << "Total even numbers: " << count << endl;
-    return 0;
+    
 }
 
 }
@@ -131,8 +126,7 @@ void reviewQuestion39()
 
     // Write your code here
 
-    #include <iostream>
-    using namespace std;
+    
 
     int main() {
     for (int row = 1; row <= 10; row++) {
@@ -142,7 +136,7 @@ void reviewQuestion39()
         cout << endl; // Move to the next line after each row
     }
 
-    return 0;
+    
 }
 
 }
@@ -160,8 +154,7 @@ void reviewQuestion40()
 
     // Write your code here
 
-    #include <iostream>
-    using namespace std;
+    
 
     int main() {
     int x = 1;
@@ -171,7 +164,7 @@ void reviewQuestion40()
         cin >> x;
     } while (x > 0);
 
-    return 0;
+    
 }
 
 }
@@ -189,8 +182,7 @@ void reviewQuestion41()
 
     // Write your code here
 
-    #include <iostream>
-    using namespace std;
+    
 
 int main() 
 {
@@ -203,7 +195,7 @@ int main()
             break;
     }
 
-    return 0;
+   
 }
 
 }
@@ -221,15 +213,14 @@ void reviewQuestion42()
 
     // Write your code here
 
-    #include <iostream>
-    using namespace std;
+    
 
     int main() {
     for (int count = 0; count < 50; count++) {
         cout << "count is " << count << endl;
     }
 
-    return 0;
+    
 }
 
 }
@@ -245,9 +236,7 @@ void reviewQuestion43()
 
     // Write your code here
 
-    #include <iostream>
-    using namespace std;
-
+   
     int main() {
     int x = 50;
     while (x > 0) {
@@ -255,8 +244,7 @@ void reviewQuestion43()
         x--;
     }
 
-    return 0;
-}
+    
     
 }
 void reviewQuestion44()
@@ -268,9 +256,7 @@ void reviewQuestion44()
 
     // Write your code here
 
-    #include <iostream>
-    #include <fstream>
-    using namespace std;
+    
 
 int main() {
     ofstream outFile("Numbers.txt"); 
@@ -280,7 +266,7 @@ int main() {
     }
 
     outFile.close(); 
-    return 0;
+    
 }
 
 }
@@ -294,6 +280,23 @@ void reviewQuestion45()
 
     // Write your code here
 
+    int main() {
+        ifstream inputFile("Numbers.txt");
+        int number;
+    
+        if (!inputFile) {
+            cout << "Error: Could not open the file." << endl;
+            return 1;
+        }
+    
+        while (inputFile >> number) {
+            cout << number << endl;
+        }
+    
+        inputFile.close();
+        
+    }
+
 }
 void reviewQuestion46()
 {
@@ -303,6 +306,27 @@ void reviewQuestion46()
     */
 
     // Write your code here
+
+    int main() {
+        ifstream inputFile("Numbers.txt");
+        int number, total = 0;
+    
+        if (!inputFile) {
+            cout << "Error: Could not open the file." << endl;
+            return 1;
+        }
+    
+        while (inputFile >> number) {
+            cout << number << endl;
+            total += number;
+        }
+    
+        inputFile.close();
+    
+        cout << "Total of all numbers: " << total << endl;
+    
+        
+    }
 
 }
 

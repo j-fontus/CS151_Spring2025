@@ -48,7 +48,7 @@ int consonantCount(string str) {
     int count = 0;
     for (int i = 0; i < str.length(); i++) {
         if (isalpha(str[i]) && !(str[i] == 'A' || str[i] == 'E' || str[i] == 'I' ||
-                                        str[i] == 'O' || str[i] == 'U')) {
+                                   str[i] == 'O' || str[i] == 'U')) {
             count++;
         }
     }
