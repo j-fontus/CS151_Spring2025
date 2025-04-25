@@ -19,6 +19,15 @@ int main()
     showDollars(wages);
     return 0;
 }
+
+void showDollars(double amount)
+{
+  cout.setf(ios::fixed);
+  cout.setf(ios::showpoint);
+  cout.precision(2);
+  cout << "Your wages are $" << amount << endl;
+
+}
 // You must write the definition of the function showDollars
 // here. It should take one parameter of the type double.
 // The function should display the message "Your wages are $"

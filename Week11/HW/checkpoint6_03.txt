@@ -29,3 +29,6 @@ int main()
     }
     return 0;
 }
+
+Enter a number: I saw Elba
+Able was I

@@ -14,7 +14,22 @@ using namespace std;
 // You must write definitions for the two functions qualify
 // and noQualify.
 
+
+
+void qualify()
+{
+    cout << "You qualify for the credit card.\n";
+    cout << "Your annual interest rate will be 12%.\n";
+}
+
+void noQualfy()
+{
+    cout << "You do not qualify for the credit card.\n";
+    cout << "You must earn at least 17000 and have worked at your job for at least 2 years.\n";
+}
+
 int main()
+
 {
     double salary;
     int years;

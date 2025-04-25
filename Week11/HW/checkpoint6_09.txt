@@ -23,3 +23,20 @@ void func1(double a, int b)
     b = 10;
     cout << a << " " << b << endl;
 }
+
+
+1. cout << x << " " << y << endl;
+     prints: 0 1.5
+
+2. Inside func1(double a, int b):
+     first print: cout << a << " " << b << endl;
+     prints: 1.5 0
+
+     Then a = 0.0; b = 10;
+
+     Second print: cout << a << " " << b << endl;
+     prints: 0 10
+
+3.  Back in main():
+    cout << x << " " << y << endl;
+    prints: 0 1.5

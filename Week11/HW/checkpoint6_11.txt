@@ -2,3 +2,10 @@ How many return values may a function have?
 
 ANSWER BELOW
 *****************************************************************
+1. Pass by reference: Use reference parameters to modify multiple variables.
+
+2. Return a struct or class: Bundle multiple value into a custom data type.
+
+3. Return a tuple or pair: ex - return make_pair(value1, value2);
+
+Using return directly, you can return only one value at a times
