@@ -7,13 +7,13 @@ Write a function called sayHello() that has a string parameter with a
     sayHello() should print "Hello, World!".
 
 Write a function called allUpper() that has a string reference parameter and
-    returns the string with all characters converted to uppercase.
+    modifies the string with all characters converted to uppercase.
     The function should use a loop to iterate through each character of the string
     and convert it to uppercase.
     The function should not return any value.
 
 Write a function called allLower() that has a string reference parameter and
-    returns the string with all characters converted to lowercase.
+    modifies the string with all characters converted to lowercase.
     The function should use a loop to iterate through each character of the string
     and convert it to lowercase.
     The function should not return any value.
@@ -21,6 +21,7 @@ Write a function called allLower() that has a string reference parameter and
 Write a function called getRandom() with an int parameter max and an int
     parameter min. Assign a default value of 0 to min.
     The function should return a random integer between min and max.
+    Use (max + 1 - min) + min to calculate the range of random numbers.
     The function should initialize a static boolean variable called seeded to false.
     If seeded is false, call srand() with the current time.
     The function should set seeded to true after seeding the random number generator.
