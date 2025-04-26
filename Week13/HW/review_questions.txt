@@ -5,6 +5,13 @@
 *****************************************************************************************
 ANSWER HERE
 
+Passing a variable
+double value = -5.5;
+cout << absolute(value)<<endl;
+
+Passing a direct number
+cout << absolute(-12.3)<<end1;
+
 *****************************************************************************************
 
 33. The following statement calls a function named average. The average function returns
@@ -14,6 +21,10 @@ ANSWER HERE
 *****************************************************************************************
 ANSWER HERE
 
+double average(double num1, double num2, double num3)
+{
+    return (num1 + num2 + num3)/3.0;
+}
 *****************************************************************************************
 
 34. A program contains the following function:
@@ -28,6 +39,7 @@ ANSWER HERE
 *****************************************************************************************
 ANSWER HERE
 
+final_velocity = velocity(10.0, 50.5, 100);
 *****************************************************************************************
 
 35. Write a function isValid that accepts an argument, grade. The function returns true
@@ -35,6 +47,14 @@ ANSWER HERE
 *****************************************************************************************
 ANSWER HERE
 
+bool isValid(char grade)
+{
+    if(grade >= 'A' && grade <= 'F')
+       return true
+    else 
+       return false
+
+}
 *****************************************************************************************
 
 36. A program contains the following function:
@@ -53,6 +73,7 @@ ANSWER HERE
 *****************************************************************************************
 ANSWER HERE
 
+display(age, income, initial)
 *****************************************************************************************
 
 37. Write a function named getNumber that uses a reference parameter variable to accept
@@ -61,6 +82,18 @@ ANSWER HERE
     variable.
 *****************************************************************************************
 ANSWER HERE
+
+void getNumber(int& number)
+{
+    cout << "Enter a number between 1 and 100:";
+    cin >> number;
+
+    while (number < 1 || number > 100)
+    {
+        cout << "Invalid. Enter a number between 1 and 100:";
+        cin >> number;
+    }
+}
 
 *****************************************************************************************
 
@@ -75,6 +108,11 @@ Each of the following functions has errors. Locate as many errors as you can.
 *****************************************************************************************
 ANSWER HERE
 
+int product(int num1, int num2, int num3)
+{
+    return num1 * num2 * num3;
+}
+
 *****************************************************************************************
 
 57. double athird ( double number )
@@ -85,6 +123,11 @@ ANSWER HERE
 *****************************************************************************************
 ANSWER HERE
 
+double athird(double number)
+{
+    return number / 3.0;
+}
+
 *****************************************************************************************
 
 58. void area(int length = 30, int width)
@@ -94,6 +137,10 @@ ANSWER HERE
 *****************************************************************************************
 ANSWER HERE
 
+void area(int length = 30, int width = 10)
+{
+    cout << "Area is" << length * width << end1
+}
 *****************************************************************************************
 
 59. void getValue(int value&)
@@ -103,6 +150,12 @@ ANSWER HERE
     }
 *****************************************************************************************
 ANSWER HERE
+
+void getValue(int& value)
+{
+    cout << "Enter a value: ";
+    cin >> value;
+}
 
 *****************************************************************************************
 
@@ -124,5 +177,22 @@ ANSWER HERE
     }
 *****************************************************************************************
 ANSWER HERE
+
+int getValue(int dummy)
+[
+   int inputValue
+   cout << "Enter an integer: ";
+   cin >> inputValue;
+   return inputValue;
+]
+
+double getValue(double dummy)
+{
+    double inputValue;
+    cout << "Enter a floating-point number: ";
+    cin >> inputValue;
+    return inputValue
+}
+
 
 *****************************************************************************************
