@@ -2,6 +2,9 @@
 **********************************************************************
 ANSWER HERE
 
+void printMessage(string msg = "Hello";)
+void setLimit(int max = 100);
+
 **********************************************************************
 
 6.20:   Write the prototype and header for a function called compute. The function
@@ -12,6 +15,12 @@ ANSWER HERE
 **********************************************************************
 ANSWER HERE
 
+function prototype
+void compute(double, int =5, long - 65536)
+
+function header
+void compute(doulbe d, int i, long 1)
+
 **********************************************************************
 
 6.21:   Write the prototype and header for a function called calculate. The function
@@ -20,6 +29,12 @@ ANSWER HERE
         argument, which is 47.  
 **********************************************************************
 ANSWER HERE
+
+function prototype
+void calculate(long, double&, int = 47);
+
+function header
+void calculate(long 1, double& d, int i = 47)
 
 **********************************************************************
 
@@ -46,6 +61,11 @@ ANSWER HERE
         }
 **********************************************************************
 ANSWER HERE
+
+5 10 15
+9 10 15
+6 15 15
+4 11 16
 
 **********************************************************************
 
@@ -88,6 +108,10 @@ ANSWER HERE
         }
 **********************************************************************
 ANSWER HERE
+0 0 0
+12 14 0
+14 15 -1
+14 15 -1
 
 **********************************************************************
 
@@ -113,6 +137,8 @@ ANSWER HERE
         }
 **********************************************************************
 ANSWER HERE
+
+1.2
 
 **********************************************************************
 
@@ -145,3 +171,8 @@ ANSWER HERE
         {
             return val1 * static_cast<int>(val2);
         }
+        
+**********************************************************************
+        ANSWER HERE
+
+        30

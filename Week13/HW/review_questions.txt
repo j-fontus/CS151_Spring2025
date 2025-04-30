@@ -10,7 +10,7 @@ double value = -5.5;
 cout << absolute(value)<<endl;
 
 Passing a direct number
-cout << absolute(-12.3)<<end1;
+cout << absolute(-12.3)<< end1;
 
 *****************************************************************************************
 
