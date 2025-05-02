@@ -12,5 +12,6 @@ Write a function called load() that has a string array parameter called nums
 and an int parameter called size.
 The function should assign each element of the array a random number between 1000 and 9999.
 Each number should be formatted with commas using the commas() function.
+Use a char array that holds the numbers 0-9.
 
 Write a main function that will test the above functions.
