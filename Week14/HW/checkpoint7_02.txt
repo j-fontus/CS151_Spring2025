@@ -7,5 +7,9 @@ string names[size];
 
 ANSWER BELOW
 ************************************************************************
+int readings[1]; array size cannot be negavtive
+float measurements [4]; 
+const int size = 10;
+string names[size];
 
 ************************************************************************

@@ -2,5 +2,14 @@ What is the difference between an array’s size declarator and a subscript?
 
 ANSWER BELOW
 ************************************************************************
+array size declarator dfine how many element the array can hold
+it appears when you declare the array
+
+int number[5];
+
+array subscript is used to access a specific element in the array
+it goes inside brackets after the array name and starts at 0
+
+number[0] = 10;
 
 ************************************************************************

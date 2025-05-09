@@ -2,5 +2,8 @@ What is “array bounds checking”? Does C++ perform it?
 
 ANSWER BELOW
 ************************************************************************
+array bounds checking means the program checks to make sure that any subscript
+(index) used to access an array is within the valid of that array
 
+C++ does not perform array bounds checking for built in arrays
 ************************************************************************
