@@ -9,5 +9,8 @@ array2 = array1;
 
 ANSWER BELOW
 ************************************************************************
+NO, the statement array2 = array1; will not work in c++ for built in array
 
+you cannot assign one array to another using the = operator. built in array
+do not assignment after declaration
 ************************************************************************

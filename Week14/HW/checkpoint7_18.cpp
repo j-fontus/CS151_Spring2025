@@ -8,6 +8,7 @@ write, is to calculate and return the average of the numbers entered.
 using namespace std;
 
 // Write your function prototype here
+double avgArray(const int[], int);
 
 int main()
 {
@@ -23,6 +24,15 @@ int main()
     cout << "The average of those numbers is ";
     cout << avgArray(userNums, SIZE) << endl;
     return 0;
+}
+double avgArray(const int arr[], int size)
+{
+    int sum = 0;
+    for(int i = 0; i < size; i++)
+    {
+        sum += arr[i];
+    }
+    return static_cast<double>(sum) / size;
 }
 //
 // Write the function avgArray here.

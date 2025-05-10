@@ -2,5 +2,7 @@ When an array name is passed to a function, what is actually being passed?
 
 ANSWER BELOW
 ************************************************************************
-
+When an array name is passed to a function, what is actually being 
+passed is the memory address of the first element of the array
+not the entire array
 ************************************************************************
